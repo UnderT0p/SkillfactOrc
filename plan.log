@@ -1,4 +1,4 @@
-C:\Users\User\Desktop\terraform\terraZone>terraform.exe plan  -out=plan.log
+C:\Users\User\Desktop\terraform\terraZone>terraform.exe plan
 yandex_vpc_network.networkans-1: Refreshing state... [id=enpuieu8vcecnmh0ch9r]
 yandex_vpc_subnet.subnetans-1: Refreshing state... [id=e9b0r2jirdc9ioed8eba]
 
