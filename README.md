@@ -1,5 +1,5 @@
 # SkillfactOrc
-1. terra1.tf - разворачиваем машины в яндекс облаке(дока в яндексе понятнее, да и в терраформе норм. Грусть- нельзя юзать пересенные в описании s3)
+1. terra1.tf - разворачиваем машины в яндекс облаке(Грусть- нельзя юзать пересенные в описании s3)
 2. plan.log - вывод terraform plan
 3. apllay.log - вывод terraform applay
 4. k8sBOTH.sh - скрипт для запуска на всех машинах участниках кластера
@@ -29,6 +29,6 @@
   
 6. join - на воркере(в ответе на init)
 7. kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml  - dashbord
-8. dasbord - доп команды чтобы дашборт заработал.(в кубере плохая документация - ничерта не понятно)
+8. dasbord - доп команды чтобы дашборт заработал.
 9. Бросаем порты через тунель пути(как в видосе только тунель доп настройка в меню) и ловим дашборт на http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
 10. k8sDash.png - скрин с дашборда
