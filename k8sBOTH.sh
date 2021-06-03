@@ -10,7 +10,7 @@ sudo modprobe br_netfilter
 sudo sysctl -p
 sudo sysctl net.bridge.bridge-nf-call-iptables=1
 sudo apt-get install docker.io -y
-sudo usermod -aG docker ansible
+sudo usermod -aG docker ${whoami}
 sudo systemctl restart docker
 sudo systemctl enable docker.service
 sudo apt-get install -y kubelet kubeadm kubectl
