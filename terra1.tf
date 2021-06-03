@@ -9,9 +9,9 @@ terraform {
     endpoint   = "storage.yandexcloud.net"
     bucket     = "bcommon"
     region     = "ru-central1"
-    key        = "***"
-    access_key = "*********"
-    secret_key = "*********"
+    key        = "state/terra1.tfstate"
+    #access_key = ""
+    #secret_key = ""
 
     skip_region_validation      = true
     skip_credentials_validation = true
