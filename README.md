@@ -3,7 +3,7 @@
 2. plan.log - вывод terraform plan
 3. apllay.log - вывод terraform applay
 4. k8sBOTH.sh - скрипт для запуска на всех машинах участниках кластера
-5. Ниже команды для запуска на мастере
+5. Ниже команды для запуска на мастере:
    sudo su -
    kubeadm init ( sudo kubeadm --pod-network-cidr=10.244.0.0/16 init)-если юзать flannel  !!! из ответа выловить join
    exit
