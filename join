@@ -1,1 +1,0 @@
-kubeadm join 192.168.10.15:6443 --token kanzzi.sfy6oxtari03qr65 --discovery-token-ca-cert-hash sha256:0b657d4f01fd6bd8182cdc0ab72ed537d2a2b269ecfacb1888379845812f9e36
