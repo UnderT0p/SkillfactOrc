@@ -1,4 +1,5 @@
 # SkillfactOrc
+не использовал ansible, еще не умел
 1. terra1.tf - разворачиваем машины в яндекс облаке(Грусть- нельзя юзать переменные в описании s3)
 2. plan.log - вывод terraform plan
 3. apllay.log - вывод terraform applay
